@@ -1,0 +1,34 @@
+.container {
+  background-image: linear-gradient(127deg, rgb(113, 70, 194), rgb(24, 11, 109));
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 3.5rem;
+  color: #f9f9f9;
+  filter: drop-shadow(5px 5px 5px rgb(31, 5, 78));
+}
+
+p {
+  color: #f9f9f9;
+  filter: drop-shadow(5px 5px 5px rgb(53, 14, 126));
+}
+
+span {
+  color: #47b5f5;
+  filter: drop-shadow(5px 5px 5px rgb(53, 14, 126));
+}
+
+/* width: 900px */
+@media screen and (max-width: 900px) {
+  .container {
+    justify-content: flex-start;
+    padding-top: 2rem;
+  }
+}

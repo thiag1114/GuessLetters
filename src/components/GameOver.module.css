@@ -1,0 +1,44 @@
+.gameOverContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gameOverContainer img {
+    width: 300px;
+    margin: -10px 0 0 10px;
+    filter: drop-shadow(5px 5px 8px rgb(31, 5, 78));
+}
+
+.btnRestart {
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(113, 70, 194);
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+    box-shadow: 5px 5px 10px rgb(31, 5, 78);
+}
+
+.btnRestart:hover {
+    background-color: #b9b9b9;
+    color: rgb(113, 70, 194);
+}
+
+/* width: 410px */
+@media screen and (max-width: 410px) {
+    .gameOverContainer h1 {
+        font-size: 2.5rem;
+    }
+
+    .gameOverContainer img {
+        width: 80%;
+        padding-left: .3rem;
+        filter: drop-shadow(5px 5px 8px rgb(31, 5, 78));
+    }
+}
