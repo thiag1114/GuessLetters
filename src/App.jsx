@@ -3,7 +3,6 @@ import { useState } from 'react';
 import styles from './App.module.css'
 
 
-
 // Words
 import { wordsList } from './data/words'
 
